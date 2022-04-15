@@ -1,0 +1,21 @@
+main button {
+    width: 6rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 2rem;
+    border-bottom: solid 1px var(--blue);
+}
+.item button {
+    
+    background: var(--pink);
+}
+.item button:hover {
+    background: var(--purple);
+}
+.item p {
+    margin-top: 0.75rem;
+}

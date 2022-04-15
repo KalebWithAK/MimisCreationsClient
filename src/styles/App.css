@@ -1,0 +1,80 @@
+:root {
+  --pink: #f495a7;
+  --orange: #faaa49;
+  --red: #9e4d37;
+  --blue: #89cff0;
+  --black: #49353a;
+  --purple: blueviolet /*#8d63c6*/;
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 18px;
+  margin: 0.25rem 1rem 1rem;
+}
+
+h1 {
+  color: var(--blue);
+  font-family: 'Dancing Script';
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+a {
+  color: var(--purple);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--pink);
+}
+
+button {
+  background: var(--purple);
+  border: none;
+  border-radius: 0.5rem;
+  width: 4rem;
+  height: 1.5rem;
+}
+button:hover {
+  background: var(--pink);
+}
+
+main {
+  min-height: 32rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardContainer {
+  display: flex;
+  /*justify-content: center;*/
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  width: 15rem;
+  height: 12rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  /*border: solid 0.25rem var(--pink);*/
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem var(--pink);
+}
+.card:hover {
+  height: 13rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem var(--purple);
+}
+.card h3 {
+  margin: 6rem 0 1rem;
+}

@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.25rem;
+    border-bottom: solid 0.1rem var(--blue);
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+
+.logout {
+    color: var(--purple);
+}
+.logout:hover {
+    color: var(--orange);
+}
